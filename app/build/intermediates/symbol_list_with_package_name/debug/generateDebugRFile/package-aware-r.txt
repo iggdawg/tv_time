@@ -1,0 +1,19 @@
+com.example.tvtime
+color splash_background
+color tv_time_bg
+color tv_time_surface
+color tv_time_surface_elevated
+color tv_time_yellow
+color tv_time_yellow_dark
+color tv_time_yellow_light
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_monochrome
+drawable ic_splash_logo
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme_TVTime
+style Theme_TVTime_Splash
+xml backup_rules
+xml data_extraction_rules

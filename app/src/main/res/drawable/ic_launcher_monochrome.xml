@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Antennas -->
+    <path
+        android:pathData="M54,31 L43,19"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M43,19 A1.8,1.8 0 1,0 43,18.9 Z"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M54,31 L65,19"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M65,19 A1.8,1.8 0 1,0 65,18.9 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Legs -->
+    <path
+        android:pathData="M37,71 L33,78 A1.5,1.5 0 0,0 35.5,79.5 L41,71 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M71,71 L75,78 A1.5,1.5 0 0,0 72.5,79.5 L67,71 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- TV Body Silhouette -->
+    <path
+        android:pathData="M35,30 L73,30 A9,9 0 0,1 82,39 L82,63 A9,9 0 0,1 73,72 L35,72 A9,9 0 0,1 26,63 L26,39 A9,9 0 0,1 35,30 Z
+                          M33,34 A5,5 0 0,0 28,39 L28,63 A5,5 0 0,0 33,68 L69,68 A5,5 0 0,0 74,63 L74,39 A5,5 0 0,0 69,34 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Clock Ring -->
+    <path
+        android:pathData="M51,39 A12,12 0 1,0 51.01,39 Z"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Clock Hands -->
+    <path
+        android:pathData="M51,51 L51,43.5 M51,51 L57,51"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Pivot -->
+    <path
+        android:pathData="M51,51 A1.8,1.8 0 1,0 51.01,51 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Controls -->
+    <path
+        android:pathData="M77.5,41 A1.8,1.8 0 1,0 77.51,41 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M77.5,47.5 A1.8,1.8 0 1,0 77.51,47.5 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>

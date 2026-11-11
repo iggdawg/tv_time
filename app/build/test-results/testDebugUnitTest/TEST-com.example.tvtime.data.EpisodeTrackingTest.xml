@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.tvtime.data.EpisodeTrackingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-11T14:37:47.969Z" hostname="lappy-l5" time="0.016">
+  <properties/>
+  <testcase name="testSeasonPremiereIdentification" classname="com.example.tvtime.data.EpisodeTrackingTest" time="0.003"/>
+  <testcase name="testSeasonPremiereOneWeekAdvanceNotificationQualification" classname="com.example.tvtime.data.EpisodeTrackingTest" time="0.01"/>
+  <testcase name="testEpisodeCodeFormatting" classname="com.example.tvtime.data.EpisodeTrackingTest" time="0.0"/>
+  <testcase name="testCategorizeEpisode" classname="com.example.tvtime.data.EpisodeTrackingTest" time="0.0"/>
+  <testcase name="testCountdownCalculation" classname="com.example.tvtime.data.EpisodeTrackingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

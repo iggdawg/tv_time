@@ -1,0 +1,160 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Subtle Ambient Glow -->
+    <path
+        android:pathData="M80,80 m-60,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="80"
+                android:centerY="80"
+                android:gradientRadius="60"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#33FFCC00" />
+                <item android:offset="0.6" android:color="#10FFCC00" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- TV Stand Legs -->
+    <path
+        android:pathData="M56,108 L50,118 A2,2 0 0,0 53.5,120.5 L61,108 Z"
+        android:fillColor="#D49A00" />
+    <path
+        android:pathData="M104,108 L110,118 A2,2 0 0,0 106.5,120.5 L99,108 Z"
+        android:fillColor="#D49A00" />
+
+    <!-- Antennas with Gold Spheres -->
+    <path
+        android:pathData="M80,50 L64,32"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFCC00"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M64,32 A2.5,2.5 0 1,0 64,31.9 Z"
+        android:fillColor="#FFE580" />
+
+    <path
+        android:pathData="M80,50 L96,32"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFCC00"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M96,32 A2.5,2.5 0 1,0 96,31.9 Z"
+        android:fillColor="#FFE580" />
+
+    <!-- Antenna Base Pivot -->
+    <path
+        android:pathData="M76,51 C76,48 84,48 84,51 Z"
+        android:fillColor="#D49A00" />
+
+    <!-- TV Housing Exterior (Vibrant Yellow Gradient) -->
+    <path
+        android:pathData="M52,49 L108,49 A12,12 0 0,1 120,61 L120,97 A12,12 0 0,1 108,109 L52,109 A12,12 0 0,1 40,97 L40,61 A12,12 0 0,1 52,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="80"
+                android:startY="49"
+                android:endX="80"
+                android:endY="109"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE875" />
+                <item android:offset="0.4" android:color="#FFCC00" />
+                <item android:offset="1.0" android:color="#DE9E00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- TV Top Highlight Bevel -->
+    <path
+        android:pathData="M52,50.5 L108,50.5 A11,11 0 0,1 118.5,61 L118.5,62 A11,11 0 0,0 108,51.5 L52,51.5 A11,11 0 0,0 41.5,62 L41.5,61 A11,11 0 0,1 52,50.5 Z"
+        android:fillColor="#80FFFFFF" />
+
+    <!-- Screen Bezel Inset -->
+    <path
+        android:pathData="M50,54.5 L101,54.5 A7,7 0 0,1 108,61.5 L108,96.5 A7,7 0 0,1 101,103.5 L50,103.5 A7,7 0 0,1 43,96.5 L43,61.5 A7,7 0 0,1 50,54.5 Z"
+        android:fillColor="#0D0F17" />
+
+    <!-- Screen Glass -->
+    <path
+        android:pathData="M51,56.5 L100,56.5 A6,6 0 0,1 106,62.5 L106,95.5 A6,6 0 0,1 100,101.5 L51,101.5 A6,6 0 0,1 45,95.5 L45,62.5 A6,6 0 0,1 51,56.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45"
+                android:startY="56.5"
+                android:endX="106"
+                android:endY="101.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1D2333" />
+                <item android:offset="1.0" android:color="#10131C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Reflection Line -->
+    <path
+        android:pathData="M45,76 L65,56.5 L78,56.5 L45,89.5 Z"
+        android:fillColor="#0EFFFFFF" />
+
+    <!-- Clock Dial Inside Screen (Center: 75.5, 79) -->
+    <!-- Outer Clock Ring -->
+    <path
+        android:pathData="M75.5,62 A17,17 0 1,0 75.51,62 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFCC00"
+        android:fillColor="#00000000" />
+
+    <!-- Clock Hour Ticks -->
+    <path
+        android:pathData="M75.5,64 L75.5,67 M75.5,91 L75.5,94 M60.5,79 L63.5,79 M87.5,79 L90.5,79"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFE580"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Hour Hand (12 o'clock) -->
+    <path
+        android:pathData="M75.5,79 L75.5,68"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Minute Hand (3 o'clock) -->
+    <path
+        android:pathData="M75.5,79 L84.5,79"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFCC00"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Center Pivot -->
+    <path
+        android:pathData="M75.5,79 A2.5,2.5 0 1,0 75.51,79 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Side Control Panel Knobs -->
+    <path
+        android:pathData="M113.5,65 A2.8,2.8 0 1,0 113.51,65 Z"
+        android:fillColor="#10131C" />
+    <path
+        android:pathData="M113.5,65 A1.8,1.8 0 1,0 113.51,65 Z"
+        android:fillColor="#FFCC00" />
+
+    <path
+        android:pathData="M113.5,74 A2.8,2.8 0 1,0 113.51,74 Z"
+        android:fillColor="#10131C" />
+    <path
+        android:pathData="M113.5,74 A1.8,1.8 0 1,0 113.51,74 Z"
+        android:fillColor="#FFCC00" />
+
+    <!-- Speaker Slits -->
+    <path
+        android:pathData="M111.5,84 L115.5,84 M111.5,88 L115.5,88 M111.5,92 L115.5,92"
+        android:strokeWidth="1.5"
+        android:strokeColor="#D49A00"
+        android:strokeLineCap="round" />
+
+</vector>

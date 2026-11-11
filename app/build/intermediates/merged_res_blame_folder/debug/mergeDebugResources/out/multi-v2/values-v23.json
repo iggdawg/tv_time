@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.tvtime.app-mergeDebugResources-51:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/iggdawg/.gradle/caches/9.1.0/transforms/bb403b305b28e3225046888d51ce2e31/transformed/work-runtime-2.10.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

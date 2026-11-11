@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.TVTime" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/tv_time_bg</item>
+        <item name="android:navigationBarColor">@color/tv_time_surface</item>
+    </style>
+
+    <!-- Material Design Splash Screen Theme -->
+    <style name="Theme.TVTime.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.TVTime</item>
+    </style>
+
+</resources>

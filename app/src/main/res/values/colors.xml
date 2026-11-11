@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tv_time_yellow">#FFCC00</color>
+    <color name="tv_time_yellow_dark">#E5A919</color>
+    <color name="tv_time_yellow_light">#FFE066</color>
+    <color name="tv_time_bg">#0D0F17</color>
+    <color name="tv_time_surface">#161924</color>
+    <color name="tv_time_surface_elevated">#202535</color>
+    <color name="splash_background">#0D0F17</color>
+</resources>
